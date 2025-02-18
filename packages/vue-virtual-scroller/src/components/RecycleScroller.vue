@@ -20,7 +20,7 @@
     </div>
 
     <component
-      :is="listTag"
+      :is="listTag" 
       ref="wrapper"
       :style="{ [direction === 'vertical' ? 'minHeight' : 'minWidth']: totalSize + 'px' }"
       class="vue-recycle-scroller__item-wrapper"
